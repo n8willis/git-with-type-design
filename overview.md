@@ -97,7 +97,7 @@ Since it has been around, GitHub has become popular with a wide
 variety of software projects, and a lot of the things that make it
 popular are free site features that are not related to git. Partly the
 popularity is because of all the features and the fact that
-programmers find the useful; partly the populaBrity is because the
+programmers find them useful; partly the populaBrity is because the
 services are free, and partly it's a popular site today because it was
 popular last year, too and there's a strong "the more the merrier"
 effect and long as it stays popularr with users ... which is the sort

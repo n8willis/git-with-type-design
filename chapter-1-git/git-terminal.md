@@ -72,21 +72,22 @@ that. It's purely a label for convenience. With only a single branch,
 git functions like any other version-control system (VCS). For more
 complex projects, git offers functions to create and manage multiple
 branches (hence the name "branch"), so a lot of git documentation
-spends time discussing branches and how to mange several at once for a
+spends time discussing branches and how to manage several at once for a
 single repo. But, for getting started, it's just important to know
 that there's at least going to be one branch, and if there's only one,
-you'll be doing on your there "on" that branch.
+you'll be doing your work there, "on" that branch.
 
-A **remote** is shorthand for a remote repository -- specifically, a
-copy of the same repo that you're working on. Git can connect your
-repo to a remote and use it as a backup location that keeps track of
-things just like your local git does. In a way, that's the fundamental
-service that GitHub provides: you can connect your local repo to a
-remote on GitHub, where the GitHub servers run their own instances of
-git. The GitHub site provides a convenient web front-end for other
-people to look at the files or to download their own copy. It's
-possible to have a remote somewhere else, though, and you can have
-more than one remote connected to your local repo.
+A **remote** is shorthand for a remote repository -- specifically,
+it's a copy of the _same_ repo that you're working on. Git can connect
+your repo to a remote and use it as a backup location that keeps track
+of things just like your local git does. In a way, that's the
+fundamental service that GitHub provides: you can connect your local
+repo to a remote on GitHub, where the GitHub servers run their own
+instances of git. The GitHub site provides a convenient web front-end
+for other people to look at the files or to download their own
+copy. It's possible to have a remote somewhere other than GitHub,
+though, and you can have more than one remote connected to your local
+repo.
 
 Just remember that the remote is another copy of the _same_ repo, and
 there is _another_ git program keeping watch over it on the other
@@ -320,14 +321,14 @@ the changelog whenever you want as you work. Tags are 100% your
 choice; you can use them to mark significant points in the progress of
 your project. It's a good idea to make use of tags, because as your
 project history gets longer and longer, it takes ... well ... longer
-and longer to scroll through. So you can bookmark significant
-milestones by adding a tag to each one as you work, and it's easier to
-navigate back through the history when you;re reviewing it. A lot of
-commercial and public projects use a tag to mark when a big, new
-public release is published; that's definitely an excellent practice
-to get into. But don't forget about tags in between big releases,
-either. They're your checkpoints, and whatever else happens, git is
-there to make the project easier for you to manage.
+and longer to scroll through what `git log` prints out. So you can
+bookmark significant milestones by adding a tag to each one as you
+work, and it's easier to navigate back through the history when you;re
+reviewing it. A lot of commercial and public projects use a tag to
+mark when a big, new public release is published; that's definitely an
+excellent practice to get into. But don't forget about tags in between
+big releases, either. They're your checkpoints, and whatever else
+happens, git is there to make the project easier for you to manage.
 
 Finally, you will want to remember `git diff`. This is a command that
 will print out all of the changes to the files in your repo _since_
