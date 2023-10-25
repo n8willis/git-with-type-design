@@ -85,8 +85,8 @@ service that GitHub provides: you can connect your local repo to a
 remote on GitHub, where the GitHub servers run their own instances of
 git. The GitHub site provides a convenient web front-end for other
 people to look at the files or to download their own copy. It's
-possible a remote somewhere else, though, and you can have more than
-one remote connected to your local repo.
+possible to have a remote somewhere else, though, and you can have
+more than one remote connected to your local repo.
 
 Just remember that the remote is another copy of the _same_ repo, and
 there is _another_ git program keeping watch over it on the other
@@ -196,7 +196,7 @@ it thinks it's "in" (and, to be honest, it's not like the Terminal app
 is _inside_ the folder at all; that's just historical terminology from
 years and years of computer history). In the Terminal, you can see
 what folder the Terminal considers to be its current location by
-typing the command `pwd` and hitting return. It prints out the
+typing the command `pwd` and hitting Return. It prints out the
 location, using `/` slash characters to separate folder names. By
 default, the Terminal launches itself in the base user account
 directory, so what it prints is probably something like
@@ -431,7 +431,7 @@ git add thefirstfile.ufo
 ```
 
 (or whatever the actual file name is, of course) and hitting
-return. You do this for each of the files you want to bundle up into
+Return. You do this for each of the files you want to bundle up into
 the commit. If you add a file to staging then change your mind about
 it, you remove it from the list by typing
 
