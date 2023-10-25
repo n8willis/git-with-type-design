@@ -1,4 +1,4 @@
-# Git and why you should care
+# Git and why it can make a difference in type projects
 
 Git is usually described as a version-control system (VCS). The idea
 of VCSes goes back decades in programming, and it focuses attention on
@@ -7,7 +7,9 @@ of the old versions get recorded in a database so they're not
 lost. That's essentially like the "Undo" menu history in everyday apps
 (including code editors), except it's keeping track of entire folders
 full of files, and it's unlimited in how many changes it can
-undo. Git and several other contemporary VCSes push that idea further,
+undo.
+
+Git and several other contemporary VCSes push that idea further,
 with additional features like letting people keep track of multiple
 versions of the files in parallel (so you can switch back-and-forth
 between them) and offering functions for sharing and collaborating on
@@ -26,12 +28,13 @@ correctly. So, when the code stops working, a VCS lets you undo it by
 however many steps you need to until it was working, then try again.
 
 That's a "success" in programming usage. But it's not really how a
-"success" is defined for design projects. In a design project, when
-you make changes to a file, it's not usually because the file was
-broken before and now you're repairing it; you're changing it to
-improve the design, to make various design elements look or work right
-together, or to make the whole thing more acceptable, appealing, or
-useful for users or clients. 
+"success" is defined for design projects.
+
+In a design project, when you make changes to a file, it's not usually
+because the file was broken before and now you're repairing it; you're
+changing it to improve the design, to make various design elements
+look or work right together, or to make the whole thing more
+acceptable, appealing, or useful for users or clients.
 
 So, in type design, for example, if you make the horizontal strokes a
 little thinner one day because you need to increase the stroke
@@ -41,10 +44,12 @@ heavier, you wouldn't _undo_ the changes you had made to the
 horizontal strokes before. Because they weren't "broken": they were
 not a mistake, you've just updated the design to work better. So the 
 undo/roll-back-a-change feature isn't quite as central when you use
-git for type design. [Don't get me wrong: it's definitely useful that
-the old revisions get saved, but usually they're useful as things you
-can go look at, rather than because you actually need to revert
-changes and redo some work.]
+git for type design. 
+
+> Don't get me wrong: it's definitely useful that the old revisions
+> get saved, but usually they're useful as things you can go look at,
+> rather than because you actually need to revert changes and redo
+> some work. 
 
 But what _is_ useful is that git can track _why_ you made the
 changes, with the *commit messages* that it logs every time you record a
@@ -74,12 +79,13 @@ bunch of alternate or experimental versions of your files, and thus
 add a bunch of extra files (with hard-to-remember-later filenames...)
 on your hard drive. Extra, alternative versions of your project files
 get out of control super fast, and they're hard to ever get sorted
-back into order as time goes by. If you ever do decide you want to
-jump back to a particular point in your project's history, you can do
-that easily with git's "tag" and "branch" features, which we'll get
-to; doing it with those features instead of doing it with a bunch of
-separately-saved, separately-named extra files is a lot easier to keep
-track of over time.
+back into order as time goes by.
+
+If you ever do decide you want to jump back to a particular point in
+your project's history, you can do that easily with git's "tag" and
+"branch" features, which we'll get to; doing it with those features
+instead of doing it with a bunch of separately-saved, separately-named
+extra files is a lot easier to keep track of over time.
 
 
 ## Viewing file-version differences isn't very important

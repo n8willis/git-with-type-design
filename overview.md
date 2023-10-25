@@ -30,12 +30,14 @@ or somebody had to make some sort of choice and run with it.
 Most specifically, it's probably important to understand that git grew
 out of the Linux kernel project — which is a massive, collaborative
 software project that just focuses on building one thing: the Linux
-kernel, the core-level operating system layer that has to handle
-everything from controlling the RAM and filesystems on disks to
-sending and recieving network traffic to swapping control
-back-and-forth between all the programs running simultaneously on the
-computer (and hopefully doing that efficiently and "fairly", for
-whatever definition of fairly you decide on).
+kernel
+([wikipedia](https://en.wikipedia.org/wiki/Linux_kernel)). That's the
+core-level operating system layer that has to handle everything from
+controlling the RAM and filesystems on disks to sending and recieving
+network traffic to swapping control back-and-forth between all the
+programs running simultaneously on the computer (and hopefully doing
+that efficiently and "fairly", for whatever definition of fairly you
+decide on).
 
 The important bits of that backstory are that (a) the Linux kernel
 project involves a huge, work-remotely team of programmers in

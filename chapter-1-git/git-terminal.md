@@ -31,7 +31,7 @@ Git basically has four top-level concepts that it works with. There's
 - a *remote*, which is some other git repository living on some other
   computer other than yours.
 
-Your *identity* is something that git actually stores a record of --
+Your **identity** is something that git actually stores a record of --
 although you have full control over what details you enter for the
 personally-identifiable portions. But you can't use git without
 setting up some sort of general identity: the changelog that git
@@ -43,9 +43,9 @@ settings and configuration options; some of those you'll care a lot
 about even if you aren't working on a multi-person collaboration
 project.
 
-A *repository* (or *repo* for short) is the changelog that git records
-to track the progress and changes on a project. No repos exist until
-you deliberately create them with the necessary commands.
+A **repository** (or **repo** for short) is the changelog that git
+records to track the progress and changes on a project. No repos exist
+until you deliberately create them with the necessary commands.
 
 Each repo is defined as existing in a particular folder, and by
 default the repo would include every file in that folder and in any of
@@ -64,7 +64,7 @@ repos for different projects on the same computer, each in different
 folders wherever you want. But it also means that repos can't overlap
 with each other: there is a maximum of one repo per folder.
 
-A *branch* is something like a "timeline of changes" in the git
+A **branch** is something like a "timeline of changes" in the git
 changelog for a particular repo. By default, whenever you create a
 repo, there is at least one branch. These days, the default branch is
 typically named something generic like "main", but you can change
@@ -77,7 +77,7 @@ single repo. But, for getting started, it's just important to know
 that there's at least going to be one branch, and if there's only one,
 you'll be doing on your there "on" that branch.
 
-A *remote* is shorthand for a remote repository -- specifically, a
+A **remote** is shorthand for a remote repository -- specifically, a
 copy of the same repo that you're working on. Git can connect your
 repo to a remote and use it as a backup location that keeps track of
 things just like your local git does. In a way, that's the fundamental
