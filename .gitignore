@@ -1,0 +1,5 @@
+# File patterns to ignore
+*~
+
+# Local files not meant to get uploaded
+NOTES.txt
